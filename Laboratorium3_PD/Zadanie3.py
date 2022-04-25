@@ -1,3 +1,8 @@
+"""
+Program creates square made of * with given height and width
+"""
+
+
 def square(lenght,height):
     for i in range(0,height):
         print('{:*<{size}}'.format("",size=lenght))

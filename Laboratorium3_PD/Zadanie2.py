@@ -1,3 +1,8 @@
+"""
+Program puts given string into box made of * sign
+"""
+
+
 def fun(word,lenght):
     print('{:*>{size}}'.format("", size=lenght))
     print('*'+'{:{size}}'.format("", size=lenght-2)+'*')
